@@ -12,4 +12,5 @@
     - role: base
     - role: python
     - role: hostname
+    - role: keyboard
     - role: shell
