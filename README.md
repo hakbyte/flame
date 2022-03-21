@@ -18,3 +18,7 @@
   - [ ] font-jetbrains-mono
   - [ ] default-jre
   - [ ] default-jdk
+
+# Notes
+
+- Role python may not be required since Kali 2022.1 (verify it)
