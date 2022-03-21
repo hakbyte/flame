@@ -1,0 +1,35 @@
+---
+pkg:
+  # Command line tools
+  - bc
+  - fortune-mod
+  - fzf
+  - htop
+  - jq
+  - neovim
+  - rlwrap
+
+  # Shell plugins/extensions
+  - zsh-autosuggestions
+  - zsh-syntax-highlighting
+
+  # Filesystem
+  - btrfs-progs
+  - ntfs-3g
+
+  # Desktop apps
+  - calibre
+  - flameshot
+  - virtualbox
+  - zathura
+
+  # Hacking
+  - ent
+  - remmina
+  - seclists
+
+deb:
+  # Bitwarden (password manager)
+  - https://github.com/bitwarden/desktop/releases/download/v1.32.0/Bitwarden-1.32.0-amd64.deb
+  # Google Chrome
+  - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb

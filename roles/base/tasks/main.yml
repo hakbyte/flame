@@ -1,0 +1,14 @@
+---
+- name: Install base packages
+  apt:
+    name: "{{ pkg }}"
+  tags:
+    - base
+
+- name: Install base packages (*.deb)
+  apt:
+    deb: "{{ item }}"
+  loop: "{{ deb }}"
+  tags:
+    - base
+    - deb
