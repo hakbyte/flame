@@ -11,3 +11,4 @@
     - role: apt
     - role: hostname
     - role: base
+    - role: python
