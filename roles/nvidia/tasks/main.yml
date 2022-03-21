@@ -1,0 +1,6 @@
+---
+- name: Install NVIDIA video driver and tools
+  apt:
+    name: "{{ pkg }}"
+  tags:
+    - nvidia
