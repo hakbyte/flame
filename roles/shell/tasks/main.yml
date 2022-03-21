@@ -1,0 +1,7 @@
+---
+- name: Set root's shell to {{ shell }}
+  user:
+    name: root
+    shell: "{{ shell }}"
+  tags:
+    - shell
