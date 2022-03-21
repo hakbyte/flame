@@ -16,5 +16,6 @@
     - role: shell
     - role: editor
     - role: ufw
+    - role: tilix
     - role: nvidia
       when: target == "desktop"
