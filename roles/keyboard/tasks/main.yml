@@ -1,0 +1,8 @@
+---
+- name: Push keyboard input options
+  template:
+    src: keyboard.j2
+    dest: /etc/default/keyboard
+    mode: '644'
+  tags:
+    - keyboard
