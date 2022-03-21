@@ -22,3 +22,4 @@
 # Notes
 
 - Role python may not be required since Kali 2022.1 (verify it)
+- Set volume output device to HDMI on Desktop -- can be done via dconf
