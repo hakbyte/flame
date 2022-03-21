@@ -7,6 +7,10 @@
 - name: Set vars for Desktop target
   set_fact:
     hostname: dagon
+    keyboard:
+      model: pc105
+      layout: us
+      variant: intl
   when: target == "desktop"
   tags:
     - always
@@ -14,6 +18,10 @@
 - name: Set vars for Laptop target
   set_fact:
     hostname: byte
+    keyboard:
+      model: latitude
+      layout: us
+      variant: intl
   when: target == "laptop"
   tags:
     - always
