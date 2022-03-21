@@ -4,6 +4,7 @@ pkg:
   - bc
   - fortune-mod
   - fzf
+  - grc
   - htop
   - jq
   - youtube-dl
