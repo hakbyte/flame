@@ -14,5 +14,6 @@
     - role: hostname
     - role: keyboard
     - role: shell
+    - role: editor
     - role: nvidia
       when: target == "desktop"
