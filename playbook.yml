@@ -1,0 +1,11 @@
+---
+- name: Configure Kali Linux System
+  hosts: all
+  connection: local
+  become: yes
+  vars_files:
+    - vars/all.yml
+  pre_tasks:
+    - import_tasks: tasks/pretasks.yml
+  roles:
+    - role: apt

@@ -1,0 +1,23 @@
+---
+
+#
+# System
+#
+
+shell: /usr/bin/zsh
+timezone: Europe/Berlin
+locale: en_US.UTF-8
+wallpaper:
+  url: https://github.com/hakbyte/wallpapers/raw/main/landscape/71f4d3b820d00851bef7_4000x2250.jpg
+  checksum: "sha1:71f4d3b820d00851bef7867346f96cc272be8c35"
+  dest: /usr/share/wallpapers
+
+#
+# User
+#
+
+username: hak
+password: hak
+git:
+  name: hakbyte
+  email: hakbyte@users.noreply.github.com

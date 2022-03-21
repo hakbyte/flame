@@ -1,0 +1,19 @@
+---
+
+#
+# Set variables based on selected target
+#
+
+- name: Set vars for Desktop target
+  set_fact:
+    hostname: dagon
+  when: target == "desktop"
+  tags:
+    - always
+
+- name: Set vars for Laptop target
+  set_fact:
+    hostname: byte
+  when: target == "laptop"
+  tags:
+    - always
