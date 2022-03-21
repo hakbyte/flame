@@ -9,6 +9,7 @@
     - import_tasks: tasks/pretasks.yml
   roles:
     - role: apt
-    - role: hostname
     - role: base
     - role: python
+    - role: hostname
+    - role: shell
