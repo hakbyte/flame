@@ -6,7 +6,9 @@ pkg:
   - fzf
   - htop
   - jq
-  - rlwrap
+
+  # Fonts
+  - fonts-jetbrains-mono
 
   # Shell plugins/extensions
   - zsh-autosuggestions
@@ -25,6 +27,7 @@ pkg:
   # Hacking
   - ent
   - remmina
+  - rlwrap
   - seclists
 
 deb:
