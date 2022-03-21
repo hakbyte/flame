@@ -5,13 +5,6 @@
   tags:
     - ufw
 
-- name: Enable ufw service
-  systemd:
-    name: ufw
-    enabled: yes
-  tags:
-    - ufw
-
 - name: Enable ufw with default policy deny
   community.general.ufw:
     state: enabled
