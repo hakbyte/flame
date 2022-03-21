@@ -9,3 +9,4 @@
     - import_tasks: tasks/pretasks.yml
   roles:
     - role: apt
+    - role: base
