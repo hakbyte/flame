@@ -15,5 +15,6 @@
     - role: keyboard
     - role: shell
     - role: editor
+    - role: ufw
     - role: nvidia
       when: target == "desktop"
