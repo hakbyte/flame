@@ -6,7 +6,6 @@ pkg:
   - fzf
   - htop
   - jq
-  - neovim
   - rlwrap
 
   # Shell plugins/extensions
