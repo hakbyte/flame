@@ -6,6 +6,7 @@ pkg:
   - fzf
   - htop
   - jq
+  - youtube-dl
 
   # Fonts
   - fonts-jetbrains-mono
