@@ -1,0 +1,31 @@
+---
+- name: Install ufw
+  apt:
+    name: ufw
+  tags:
+    - ufw
+
+- name: Enable ufw service
+  systemd:
+    name: ufw
+    enabled: yes
+  tags:
+    - ufw
+
+- name: Enable ufw with default policy deny
+  community.general.ufw:
+    state: enabled
+    policy: deny
+  tags:
+    - ufw
+
+- name: Allow {{ username }} to manage ufw
+  lineinfile:
+    path: /etc/sudoers.d/ufw-manage
+    state: present
+    line: "%{{ username }} ALL=(root) NOPASSWD: /usr/sbin/ufw"
+    validate: /usr/sbin/visudo -cf %s
+    create: yes
+    mode: '400'
+  tags:
+    - ufw
