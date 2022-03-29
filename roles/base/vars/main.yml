@@ -1,5 +1,8 @@
 ---
 pkg:
+  # Required by Ansible's dconf module
+  - python3-psutil
+
   # Command line tools
   - bc
   - fortune-mod
