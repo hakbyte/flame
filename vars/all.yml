@@ -4,7 +4,6 @@
 # System
 #
 
-shell: /usr/bin/zsh
 timezone: Europe/Berlin
 locale: en_US.UTF-8
 
@@ -14,3 +13,4 @@ locale: en_US.UTF-8
 
 username: hak
 password: hak
+shell: /usr/bin/zsh

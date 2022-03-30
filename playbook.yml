@@ -12,7 +12,6 @@
     - role: base
     - role: hostname
     - role: keyboard
-    - role: shell
     - role: editor
     - role: ufw
     - role: tilix
