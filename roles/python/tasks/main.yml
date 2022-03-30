@@ -1,6 +1,0 @@
----
-- name: Make /usr/bin/python point to Python3
-  apt:
-    name: python-is-python3
-  tags:
-    - python

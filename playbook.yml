@@ -10,7 +10,6 @@
   roles:
     - role: apt
     - role: base
-    - role: python
     - role: hostname
     - role: keyboard
     - role: shell
