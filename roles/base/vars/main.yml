@@ -40,3 +40,5 @@ deb:
   - https://vault.bitwarden.com/download/?app=desktop&platform=linux&variant=deb
   # Google Chrome
   - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+  # Obsidian Notes
+  - https://github.com/obsidianmd/obsidian-releases/releases/download/v0.13.31/obsidian_0.13.31_amd64.deb
