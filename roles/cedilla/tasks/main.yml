@@ -1,0 +1,27 @@
+---
+- name: Configure cedilla module for GTK 2.0
+  lineinfile:
+    path: /usr/lib/x86_64-linux-gnu/gtk-2.0/2.10.0/immodules.cache
+    regex: '"cedilla" "Cedilla" "gtk20" "/usr/share/locale" "az:ca:co:fr:gv:oc:pt:sq:tr:wa"'
+    line: '"cedilla" "Cedilla" "gtk20" "/usr/share/locale" "az:ca:co:fr:gv:oc:pt:sq:tr:wa:en"'
+  tags:
+    - cedilla
+
+- name: Configure cedilla module for GTK 3.0
+  lineinfile:
+    path: /usr/lib/x86_64-linux-gnu/gtk-3.0/3.0.0/immodules.cache
+    regex: '"cedilla" "Cedilla" "gtk30" "/usr/share/locale" "az:ca:co:fr:gv:oc:pt:sq:tr:wa"'
+    line: '"cedilla" "Cedilla" "gtk30" "/usr/share/locale" "az:ca:co:fr:gv:oc:pt:sq:tr:wa:en"'
+  tags:
+    - cedilla
+
+- name: Configure environment
+  blockinfile:
+    path: /etc/environment
+    block: |
+      GTK_IM_MODULE=cedilla
+      QT_IM_MODULE=cedilla
+    create: yes
+    mode: '644'
+  tags:
+    - cedilla
