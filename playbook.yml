@@ -20,3 +20,4 @@
     - role: nvidia
       when: target == "desktop"
     - role: devel
+    - role: discord
