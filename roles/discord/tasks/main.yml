@@ -1,0 +1,56 @@
+---
+
+#
+# Install Discord on Kali Linux.
+# Reference: https://www.youtube.com/watch?v=U0wahRFScYw
+#
+
+- name: Download and unpack Discord archive
+  unarchive:
+    src: https://discord.com/api/download?platform=linux&format=tar.gz
+    dest: /opt
+    remote_src: yes
+    creates: /opt/Discord
+  register: unarchive_status
+  tags:
+    - discord
+
+- name: Updated Exec line in Discord desktop entry
+  lineinfile:
+    dest: /opt/Discord/discord.desktop
+    regexp: "^Exec="
+    line: "Exec=/usr/bin/Discord"
+    state: present
+  when: unarchive_status is changed
+  tags:
+    - discord
+
+- name: Updated Icon line in Discord desktop entry
+  lineinfile:
+    dest: /opt/Discord/discord.desktop
+    regexp: "^Icon="
+    line: "Icon=/opt/Discord/discord.png"
+    state: present
+  when: unarchive_status is changed
+  tags:
+    - discord
+
+- name: Create link to Discord binary
+  file:
+    src: /opt/Discord/Discord
+    dest: /usr/bin/Discord
+    state: link
+    force: yes
+  when: unarchive_status is changed
+  tags:
+    - discord
+
+- name: Create link to Discord desktop entry
+  file:
+    src: /opt/Discord/discord.desktop
+    dest: /usr/share/applications/discord.desktop
+    state: link
+    force: yes
+  when: unarchive_status is changed
+  tags:
+    - discord
