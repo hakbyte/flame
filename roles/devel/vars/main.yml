@@ -1,0 +1,17 @@
+---
+pkg:
+  # Programming languages
+  - golang
+
+  # Tools
+  - python3-pip
+  - awscli
+  - docker
+  - docker-compose
+
+  # Fonts
+  - fonts-jetbrains-mono
+
+deb:
+  # VS Code
+  - https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
