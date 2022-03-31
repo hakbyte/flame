@@ -14,6 +14,7 @@
     - role: timezone
     - role: keyboard
     - role: editor
+    - role: cedilla
     - role: ufw
     - role: tilix
     - role: nvidia
