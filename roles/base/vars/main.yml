@@ -10,6 +10,7 @@ pkg:
   - grc
   - htop
   - jq
+  - neofetch
   - youtube-dl
 
   # Fonts
@@ -26,6 +27,8 @@ pkg:
   # Desktop apps
   - calibre
   - flameshot
+  - gimp
+  - virtualbox
   - virtualbox
   - zathura
 
