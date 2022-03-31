@@ -9,6 +9,7 @@
 - [ ] Obsidian
 - [ ] Discord
 - [ ] Gimp
+- [ ] Initialize Metasploit: `sudo msfdb init`
 - [ ] Devel tools:
   - [ ] awscli
   - [ ] redis-tools
