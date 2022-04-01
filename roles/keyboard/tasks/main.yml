@@ -4,5 +4,12 @@
     src: keyboard.j2
     dest: /etc/default/keyboard
     mode: '644'
+  register: keyboard
+  tags:
+    - keyboard
+
+- name: Set keyboard layout in initramfs
+  command: update-initramfs -u
+  when: keyboard.changed
   tags:
     - keyboard
