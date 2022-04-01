@@ -1,22 +1,22 @@
 # TODO
 
-- [ ] Set timezone
+- [x] Set timezone
 - [ ] Add user programatically
 - [ ] Configure DNS? -- maybe later, after the exam...
 - [ ] GDM appearance
-- [ ] Cedilla
-- [ ] Configure Laptop's touchpad
-- [ ] Obsidian
-- [ ] Discord
+- [x] Cedilla
+- [ ] ~~Configure Laptop's touchpad~~
+- [x] Obsidian
+- [x] Discord
 - [ ] Gimp
 - [ ] Initialize Metasploit: `sudo msfdb init`
 - [ ] Devel tools:
-  - [ ] awscli
-  - [ ] redis-tools
-  - [ ] docker
-  - [ ] docker-compose
-  - [ ] vscode
-  - [ ] font-jetbrains-mono
+  - [x] awscli
+  - [ ] ~~redis-tools~~
+  - [x] docker
+  - [x] docker-compose
+  - [x] vscode
+  - [x] font-jetbrains-mono
   - [ ] default-jre
   - [ ] default-jdk
 
