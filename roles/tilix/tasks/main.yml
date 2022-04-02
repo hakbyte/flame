@@ -1,5 +1,5 @@
 ---
-- name: Install Tilix from *.deb packages
+- name: Install Tilix (*.deb)
   apt:
     deb: "{{ item }}"
   loop: "{{ deb }}"
