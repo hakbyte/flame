@@ -39,9 +39,11 @@ pkg:
   - seclists
 
 deb:
-  # Bitwarden (password manager)
+  # Bitwarden
   - https://vault.bitwarden.com/download/?app=desktop&platform=linux&variant=deb
   # Google Chrome
   - https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
   # Obsidian Notes
   - https://github.com/obsidianmd/obsidian-releases/releases/download/v0.13.31/obsidian_0.13.31_amd64.deb
+  # VeraCrypt
+  - https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_1.25.9/veracrypt-1.25.9-Debian-11-amd64.deb
