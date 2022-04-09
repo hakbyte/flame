@@ -19,6 +19,7 @@
   - [x] font-jetbrains-mono
   - [ ] default-jre
   - [ ] default-jdk
+- [ ] Install chrome and vscode via apt sources. Try the same for Tilix
 
 # Notes
 
