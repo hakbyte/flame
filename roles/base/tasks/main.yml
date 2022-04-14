@@ -12,3 +12,11 @@
   tags:
     - base
     - deb
+
+- name: Enable and start bluetooth service
+  service:
+    name: bluetooth
+    enabled: yes
+    state: started
+  tags:
+    - base
