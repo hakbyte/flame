@@ -2,12 +2,14 @@
 pkg:
   # Programming languages
   - golang
+  - nim
 
   # Tools
   - python3-pip
   - awscli
   - docker
   - docker-compose
+  - mingw-w64
 
   # Fonts
   - fonts-jetbrains-mono
