@@ -1,8 +1,0 @@
----
-deb:
-  # Tilix packages for Debian (https://packages.debian.org/bullseye/tilix)
-  - http://ftp.de.debian.org/debian/pool/main/g/gtk-d/libgtkd-3-0_3.9.0-4_amd64.deb
-  - http://ftp.de.debian.org/debian/pool/main/l/ldc/libphobos2-ldc-shared94_1.24.0-2_amd64.deb
-  - http://ftp.de.debian.org/debian/pool/main/g/gtk-d/libvted-3-0_3.9.0-4_amd64.deb
-  - http://ftp.de.debian.org/debian/pool/main/t/tilix/tilix-common_1.9.4-2_all.deb
-  - http://ftp.de.debian.org/debian/pool/main/t/tilix/tilix_1.9.4-2_amd64.deb

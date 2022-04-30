@@ -1,8 +1,0 @@
----
-- name: Install Tilix (*.deb)
-  apt:
-    deb: "{{ item }}"
-  loop: "{{ deb }}"
-  tags:
-    - tilix
-    - deb
