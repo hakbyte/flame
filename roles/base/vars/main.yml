@@ -31,6 +31,7 @@ pkg:
   - gimp
   - virtualbox
   - virtualbox
+  - vlc
   - zathura
 
   # Hacking
