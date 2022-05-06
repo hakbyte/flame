@@ -10,6 +10,7 @@
   roles:
     - role: apt
     - role: base
+    - role: dns
     - role: hostname
     - role: timezone
     - role: keyboard
