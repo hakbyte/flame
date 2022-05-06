@@ -1,0 +1,30 @@
+---
+- name: Install resolvconf package
+  apt:
+    name: resolvconf
+  tags:
+    - dns
+
+- name: Enable and start resolveconf service
+  service:
+    name: resolvconf
+    enabled: yes
+    state: started
+  tags:
+    - dns
+
+- name: Push DNS entries
+  template:
+    src: head.j2
+    dest: /etc/resolvconf/resolv.conf.d/head
+    mode: '644'
+  register: resolvconf
+  tags:
+    - dns
+
+- name: Update DNS entries in /etc/resolv.conf
+  command:
+    cmd: resolvconf -u
+  when: resolvconf.changed
+  tags:
+    - dns

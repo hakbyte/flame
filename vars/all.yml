@@ -6,6 +6,9 @@
 
 timezone: Europe/Berlin
 locale: en_US.UTF-8
+nameservers:
+  - 8.8.8.8 # Google (primary)
+  - 8.8.4.4 # Google (secondary)
 
 #
 # User
