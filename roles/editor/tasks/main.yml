@@ -1,13 +1,13 @@
 ---
-- name: Install Neovim
+- name: Install Vim with clipboard support
   apt:
-    name: neovim
+    name: vim-gtk3
   tags:
     - editor
 
-- name: Set Neovim as default editor
+- name: Set Vim as default editor
   community.general.alternatives:
     name: editor
-    path: /usr/bin/nvim
+    path: /usr/bin/vim
   tags:
     - editor
