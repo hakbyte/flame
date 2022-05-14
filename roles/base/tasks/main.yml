@@ -13,6 +13,14 @@
     - base
     - deb
 
+- name: Download wallpapers
+  git:
+    repo: https://github.com/hakbyte/wallpapers
+    dest: /usr/share/backgrounds/hak
+    depth: 1
+  tags:
+    - base
+
 - name: Enable and start bluetooth service
   service:
     name: bluetooth
