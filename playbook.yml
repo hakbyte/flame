@@ -11,6 +11,7 @@
     - role: apt
     - role: base
     - role: dns
+    - role: gdm
     - role: hostname
     - role: timezone
     - role: keyboard
