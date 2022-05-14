@@ -1,4 +1,6 @@
 ---
+# GDM uses its own dconf database.
+# Reference: https://gitlab.gnome.org/GNOME/gdm/-/issues/695
 - block:
   - name: Set keyboard layout to US International
     dconf:
