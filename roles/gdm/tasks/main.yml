@@ -1,0 +1,19 @@
+---
+- block:
+  - name: Set keyboard layout to US International
+    dconf:
+      key: "/org/gnome/desktop/input-sources/sources"
+      value: "[('xkb', 'us+intl')]"
+    tags:
+      - gdm
+
+  - name: Enable tap to click for Laptop target
+    dconf:
+      key: "/org/gnome/desktop/peripherals/touchpad/tap-to-click"
+      value: "true"
+    when: target == "laptop"
+    tags:
+      - gdm
+
+  become: yes
+  become_user: Debian-gdm
