@@ -32,7 +32,6 @@ pkg:
   - gimp
   - google-chrome-stable
   - virtualbox
-  - virtualbox
   - vlc
   - zathura
 
