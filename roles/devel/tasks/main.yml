@@ -4,11 +4,3 @@
     name: "{{ pkg }}"
   tags:
     - devel
-
-- name: Install software development tools (*.deb)
-  apt:
-    deb: "{{ item }}"
-  loop: "{{ deb }}"
-  tags:
-    - devel
-    - deb
