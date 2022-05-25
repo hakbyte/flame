@@ -5,6 +5,14 @@
     dest: /etc/apt/sources.list.d
     mode: '644'
   with_fileglob: '*.list'
+  register: apt_sources_list
+  tags:
+    - apt
+
+- name: Update package lists if new repository was added
+  apt:
+    update_cache: yes
+  when: apt_sources_list.changed
   tags:
     - apt
 
