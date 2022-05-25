@@ -6,6 +6,7 @@ pkg:
 
   # Tools
   - awscli
+  - code
   - docker
   - docker-compose
   - gdb
@@ -14,7 +15,3 @@ pkg:
 
   # Fonts
   - fonts-jetbrains-mono
-
-deb:
-  # VS Code
-  - https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
