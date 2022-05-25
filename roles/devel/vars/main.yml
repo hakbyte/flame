@@ -5,11 +5,12 @@ pkg:
   - nim
 
   # Tools
-  - python3-pip
   - awscli
   - docker
   - docker-compose
+  - gdb
   - mingw-w64
+  - python3-pip
 
   # Fonts
   - fonts-jetbrains-mono
