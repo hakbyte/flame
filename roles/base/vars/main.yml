@@ -5,6 +5,7 @@ pkg:
 
   # Command line tools
   - bc
+  - feh
   - fortune-mod
   - fzf
   - grc
