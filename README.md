@@ -3,7 +3,7 @@
 Flame is a set of Ansible roles organized as a playbook that I use manage my
 laptop and workstation with [Kali Linux](https://www.kali.org/). I got the
 inspiration from [spark](https://github.com/pigmonkey/spark) and that's why it's
-called *flame*.
+called *Flame*.
 
 > :memo: You may also want to check out my [dotfiles](https://github.com/hakbyte/dots)
 > to further customize your brand new Kali installation.
@@ -51,7 +51,7 @@ the following values:
 - Nameservers (for DNS resolution)
 
 > :warning: **Important:** the `desktop` target is configured to install the
-> Nvidia proprietary drivers. To avoid installing these run the playbook with
+> Nvidia proprietary drivers. To avoid installing these, run the playbook with
 > `--skip-tags nvidia`.
 
 # TODO
