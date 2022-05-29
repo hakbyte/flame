@@ -18,6 +18,7 @@
     repo: https://github.com/hakbyte/wallpapers
     dest: /usr/share/backgrounds/{{ username }}
     depth: 1
+  when: username is defined
   tags:
     - base
 

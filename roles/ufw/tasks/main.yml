@@ -20,5 +20,6 @@
     validate: /usr/sbin/visudo -cf %s
     create: yes
     mode: '400'
+  when: username is defined
   tags:
     - ufw
