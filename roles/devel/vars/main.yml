@@ -7,8 +7,6 @@ pkg:
   # Tools
   - awscli
   - code
-  - docker
-  - docker-compose
   - gdb
   - mingw-w64
   - python3-pip
