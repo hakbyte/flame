@@ -1,0 +1,26 @@
+---
+- name: Install docker and its dependencies
+  apt:
+    name: "{{ pkg }}"
+  tags:
+    - docker
+
+- name: Retrieve user information from /etc/passwd
+  getent:
+    database: passwd
+    key: "{{ username }}"
+    fail_key: no
+  when: username is defined
+  tags:
+    - docker
+
+- name: Add user {{ username }} to docker group
+  user:
+    name: "{{ username }}"
+    groups: docker
+    append: yes
+  when:
+    - username is defined
+    - getent_passwd[username] != None # make sure user exists
+  tags:
+    - docker
