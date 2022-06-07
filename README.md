@@ -67,3 +67,7 @@ the following values:
   - https://gitlab.gnome.org/GNOME/gdm/-/issues/459
 - [ ] Set `/etc/vconsole.conf` to `us-acentos` for instance
 - [ ] Add *Features* section to `README.md`
+- [ ] Add *Security* section to `README.md`
+- [ ] Enable sudo without password for some commands (:warning: document security concerns):
+  - [ ] nmap
+  - [ ] openvpn
