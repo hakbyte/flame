@@ -71,3 +71,4 @@ the following values:
 - [ ] Enable sudo without password for some commands (:warning: document security concerns):
   - [ ] nmap
   - [ ] openvpn
+  - [ ] apt
