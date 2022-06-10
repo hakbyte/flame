@@ -72,3 +72,4 @@ the following values:
   - [ ] nmap
   - [ ] openvpn
   - [ ] apt
+- [ ] Create GitHub issues for every TODO item
