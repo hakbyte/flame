@@ -10,6 +10,7 @@ pkg:
   - gdb
   - mingw-w64
   - python3-pip
+  - python3-venv
 
   # Fonts
   - fonts-jetbrains-mono
