@@ -73,3 +73,4 @@ the following values:
   - [ ] openvpn
   - [ ] apt
 - [ ] Create GitHub issues for every TODO item
+- [ ] If dual boot add `GRUB_DISABLE_OS_PROBER=false` to `/etc/default/grub`
