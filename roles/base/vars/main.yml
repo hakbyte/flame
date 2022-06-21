@@ -11,6 +11,7 @@ pkg:
   - grc
   - htop
   - jq
+  - mplayer
   - neofetch
   - ntpdate
   - sox
