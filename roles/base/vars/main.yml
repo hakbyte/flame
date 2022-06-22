@@ -45,9 +45,5 @@ pkg:
   - seclists
 
 deb:
-  # Bitwarden
-  # - https://vault.bitwarden.com/download/?app=desktop&platform=linux&variant=deb
-  # Obsidian Notes
-  - https://github.com/obsidianmd/obsidian-releases/releases/download/v0.14.6/obsidian_0.14.6_amd64.deb
   # VeraCrypt
   - https://github.com/veracrypt/VeraCrypt/releases/download/VeraCrypt_1.25.9/veracrypt-1.25.9-Debian-11-amd64.deb
