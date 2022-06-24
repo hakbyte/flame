@@ -16,8 +16,9 @@
     - role: timezone
     - role: keyboard
     - role: editor
-    - role: cedilla
     - role: ufw
+    - role: user
+    - role: cedilla
     - role: nvidia
       when: target == "desktop"
     - role: devel
