@@ -74,3 +74,4 @@ the following values:
   - [ ] apt
 - [ ] Create GitHub issues for every TODO item
 - [ ] If dual boot add `GRUB_DISABLE_OS_PROBER=false` to `/etc/default/grub`
+- [ ] Install Python tools (autopep8, pipreqs, autoviz)
